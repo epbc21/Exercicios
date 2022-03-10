@@ -8,12 +8,18 @@
     <style>
         body{
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
-            background-repeat: no-repeat;
+            background-repeat: repeat-y;
+            background-size: cover;
+            background-attachment: fixed;*/
+            /*uma short hand - background segue a seguinte ordem: color, image, position, repeat, size e attachament.*/
+            background: rgb(196, 17, 17) url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
         main{
             background-color: white;
+            max-width: 700px;
             text-align: justify;
             width: 400px;
             padding: 10px;
